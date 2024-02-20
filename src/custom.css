@@ -1,0 +1,93 @@
+body {
+    background-color: aquamarine;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.product{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dlt-btn{
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.product-img{
+    width: 50px;
+    height: 50px;
+    border: solid 3px white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.crt-itm{
+margin-block: 10px;
+}
+
+.add-btn{
+    background: none;
+    border: none;
+    color: aqua;
+}
+
+.qty {
+    display: flex;
+    flex-direction: column; /* Imposta la direzione della colonna */
+    align-items: center; /* Allinea al centro verticalmente */
+  }
+  
+  .reduce-btn,
+  .dlt-btn {
+    margin: 0.1rem; /* Riduci il margine tra i bottoni e il paragrafo */
+  }
+
+  .total-cart{
+    border: solid 1px #b3b3b3;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: antiquewhite;
+    margin: 1rem;
+    margin-left: 66%;
+  }
+
+  .hr-total-cart {
+    margin-block: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  .checkout-btn{
+    margin-bottom: 0.5rem;
+border: none;
+background-color: blueviolet;
+border-radius: 50px;
+padding-inline: 15px;
+color: white;
+padding-block: 3px;
+  }
